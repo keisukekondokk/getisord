@@ -1,0 +1,8 @@
+v 3
+d getisord. Stata module to compute Getis-Ord G*i(d)
+d Keisuke Kondo, Research Institute of Economy, Trade and Industry
+d 
+d Support: webpage https://keisukekondokk.github.io/
+d Support: email kondo-keisuke@rieti.go.jp
+f ado/getisord.ado
+f ado/getisord.sthlp
