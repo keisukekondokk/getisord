@@ -5,13 +5,9 @@ The `getisord` command computes Getis-Ord <i>G<sub>i</sub><sup>*</sup>(d)</i> st
 
 ## Install
 
-### Stata
+### Installation from GitHub
 
-```
-net install st0446_1.pkg, replace
-```
-
-### GitHub
+The latest version of the `getisord` command can be installed from the GitHub as follows:
 
 ```
 net install getisord, replace from("https://raw.githubusercontent.com/keisukekondokk/getisord/main/")
@@ -20,7 +16,7 @@ net install getisord, replace from("https://raw.githubusercontent.com/keisukekon
 ## Uninstall
 
 ```
-ado uninstall st0446_1
+ado uninstall getisord
 ```
 
 
@@ -121,3 +117,11 @@ URL: https://doi.org/10.1016/j.japwor.2015.11.001
 
 Kondo, Keisuke (2016) "Hot and cold spot analysis using Stata," *Stata Journal*, 16(3), pp. 613-631.  
 URL: https://doi.org/10.1177%2F1536867X1601600304  
+
+## Related Stata Modules 
+
+MORANSI: Stata module to compute Moran's I  
+https://github.com/keisukekondokk/moransi  
+
+SPGEN: Stata module to generate spatially lagged variables  
+https://github.com/keisukekondokk/spgen  
